@@ -367,7 +367,7 @@
 
                 const getGenerativeBotResponse = async () => {
                     // ** 2. YOUR GEMINI API KEY FOR THE CHATBOT **
-                    const apiKey = "AIzaSyDuiN8U2JhTKe6G0i4uGuKKWKw_i9qspzA";
+                    const apiKey = "";
                     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
                     const systemPrompt = `You are a patient, compassionate, and concise AI assistant for 'Cyber Drishti'. 
@@ -413,7 +413,7 @@ When you feel you have enough information for these 4 points, end your message w
 
                 const generateStory = async () => {
                     // ** 3. YOUR GEMINI API KEY FOR STORY GENERATION **
-                    const apiKey = "AIzaSyDuiN8U2JhTKe6G0i4uGuKKWKw_i9qspzA";
+                    const apiKey = "";
                     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
                     const conversationText = chatHistory
@@ -587,5 +587,6 @@ Do not include any other text or formatting. Just the JSON object.`;
     </script>
 </body>
 </html>
+
 
 
